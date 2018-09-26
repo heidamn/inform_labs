@@ -23,14 +23,12 @@ if y % x > 0 :
 x = "{} is a divider of {}".format(z,y) if y%z==0 else "{} is not a divider of {}".format(z,y)
 print(x)
 print("\n\n")
-#
-#
-#
+#2
 p=int(input("колво лаб"))
 if p>10:
 	print(p)
 if p>10: print(p)
-#
+#3
 a=157
 b=525
 if a>b: print(a%b)

@@ -52,7 +52,7 @@ print("a1 > a2: ", a1 > a2)
 print("a1 < a2: ", a1 < a2)
 print("\n\n")
 #9
-list1=[i*2+100 for i in range(10)]
+list1=[int(input()) for i in range(10)]
 list1.sort(reverse=True)
 print(list1[5:])
 #10

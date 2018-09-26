@@ -8,11 +8,15 @@ for m in range (len(a)):
       a1+=chr(a[m])
 print(a1)
 a1=''
+j=False
 for i in range(math.factorial(len(a))-1):
    for m in range (len(a)-1):
       if a[m]<a[m+1]:
          j=m
-   l=j
+   if j==False:
+      break
+   else:
+      l=j
    for m in range(j+1, len(a)):
       if a[m]>a[j]:
          l=m
